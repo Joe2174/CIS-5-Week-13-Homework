@@ -6,7 +6,7 @@ using std::cout;
 using std::cin;
 
 // Practice 13 · Part 1 — Joe Barron
-// CIS 5 Week 13 · Word tools
+// CIS 5 Week 13 · Word tools K
 
 string banner(const string& name) 
 {
