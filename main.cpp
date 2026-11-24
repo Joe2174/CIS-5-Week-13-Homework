@@ -10,20 +10,19 @@ using std::cin;
 
 string banner(const string& name) 
 {
-  // TODO: return "Hello, " + name + "!"
   return "Hello, " + name + "!";
 }
 
 string initials(const string& first, const string& last) 
 {
   string out = "";
-  // TODO: if first.size() > 0, add first[0] to out
-  if (first.size() > 0) 
+ 
+  if (!first.size()) 
   {
     out += first[0];
   }
-  // TODO: if last.size() > 0, add last[0] to out
-  if (last.size() > 0) 
+ 
+  if (!last.size()) 
   {
     out += last[0];
   }
@@ -39,9 +38,6 @@ int main()
   cin >> last;
 
   string full = first + " " + last;
-  // TODO: print banner(full)
-  // TODO: print "Length: " and full.size()
-  // TODO: print "Initials: " and initials(first, last)
   cout << banner(full) << "\n";
   cout << "Length: " << full.size() << "\n";
   cout << "Initials: " << initials(first, last) << "\n";

@@ -23,8 +23,8 @@ void printAccount(const Account& a)
 int main() 
 {
   // TODO: make two records with braces, then print both with your helper
-  Account a1 = {"John Doe", 1000.0};
-  Account a2 = {"Jane Smith", 2000.0};
+  Account a1 = {"Ada", 50.25};
+  Account a2 = {"Ben", 120.5};
   printAccount(a1);
   printAccount(a2);
 
