@@ -17,12 +17,12 @@ string initials(const string& first, const string& last)
 {
   string out = "";
  
-  if (!first.size()) 
+  if (first.size() > 0) 
   {
     out += first[0];
   }
  
-  if (!last.size()) 
+  if (last.size() > 0) 
   {
     out += last[0];
   }
